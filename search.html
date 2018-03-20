@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+    <script src="https://cdn.bootcss.com/jquery/3.3.0/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <link href="https://cdn.bootcss.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+    <title>tmall</title>
+</head>
+<style>
+	body{
+		font-size: 12px;
+		font-family: arial;
+	}
+	#logo{
+		position: absolute;
+		left: 10px;
+		top: 20px;
+		z-index: -1;
+	}
+	div.searchDiv{
+		background-color: #C40000;
+		display: block;
+		margin: 50px auto;
+		padding: 1px;
+		width: 400px;
+		height: 40px;
+	}
+	div.searchDiv input{
+		margin: 1px;
+		width: 280px;
+		height: 36px;
+		border: 1px solid #C40000;
+		outline: none;
+	}
+	div.searchDiv button{
+		width: 100px;
+		background-color: #C40000;
+		border: 1px solid #C40000;
+		align-content: center;
+		color: white;
+		font-size: 20px;
+		font-family: arial;
+	}
+	div.searchBelow{
+		margin-top: 3px;
+		margin-left: -10px;
+	}
+	div.searchBelow span{
+		color: #696969;
+	}
+	div.searchBelow a{
+		font-size: 14px;
+		padding: 0px 10px;
+	}
+	a:hover{
+		text-decoration: none;
+		color: #C40000;
+	}
+</style>
+<body>
+	<div>
+		<a href="#">
+			<img src="https://github.com/lvhanh/tmall/raw/master/picture/TB1M0jrd_tYBeNjy1XdtKXXyVXa.gif" id="logo">
+		</a>
+		<div class="searchDiv">
+			<input type="text" placeholder=" 搜索 天猫 商品/品牌/店铺" name="keyword">
+			<button class="searchButton" type="submit">搜索</button>
+			<div class="searchBelow">
+				<span><a href="#">针织衫</a><span>|</span></span>
+				<span><a href="#">连衣裙</a><span>|</span></span>
+				<span><a href="#">四件套</a><span>|</span></span>
+				<span><a href="#">摄像头</a><span>|</span></span>
+				<span><a href="#">客厅灯</a><span>|</span></span>
+				<span><a href="#">口红</a><span>|</span></span>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
